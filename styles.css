@@ -1,30 +1,31 @@
-body{
+body {
   text-align: center;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 16px;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
 }
 
 /*Global*/
 
-.container{
+.container {
   width: 80%;
   margin: auto;
   overflow: hidden;
 }
-.container2{
+.container2 {
   width: 100%;
   margin: auto;
   overflow: hidden;
 }
 
 /*Header*/
-header ul{
+
+header ul {
   margin: 0;
   padding: 0;
 }
-header{
+header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -32,134 +33,129 @@ header{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
-  
+
   background: #1c1c1c;
   color: #ffffff;
   min-height: 115px;
 }
-header a{
+header a {
   color: #ffffff;
   text-decoration: none;
-  text-transform: uppercase;;
+  text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
 }
-header li{
+header li {
   padding: 0px 20px 0 20px;
   list-style: none;
 }
-header img{
-
-  width:140px;
-    margin-left: 10%;
+header img {
+  width: 140px;
+  margin-left: 10%;
   padding-top: 5px;
-} 
+}
 header nav {
   float: right;
   margin-top: 45px;
   margin-right: 10%;
 }
-header .current a{
+header .current a {
   color: #0ff2d6;
 }
-header a:hover{
+header a:hover {
   color: #6d928d;
   font-weight: bold;
 }
 
 /*image*/
 
-.image { 
+.image {
   padding-top: 1px;
-  font-size:24px;
+  font-size: 24px;
   font-family: sans-serif;
-  font-weight:bold;
+  font-weight: bold;
   height: 1000px;
-  width:100%;
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
-
-.imgDiv{
-  display:flex;
+.imgDiv {
+  display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
 
 /*showcase*/
 
-.image h1{
+.image h1 {
   padding-top: 200px;
   font-size: 50px;
   color: #0ff2d6;
-  text-shadow: 1px 1px 350px cyan; 
+  text-shadow: 1px 1px 350px cyan;
 }
-.image h3{
-  text-shadow: 1px 1px 60px white; 
+.image h3 {
+  text-shadow: 1px 1px 60px white;
   color: white;
   padding-top: 250px;
 }
-#showcase img{
+#showcase img {
   max-width: 100%;
   height: auto;
+}
+#icon-img {
+  width: 200px;
 }
 
 /* boxes*/
 
-#about{
+#about {
   margin-top: 50px;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 }
-#about h3{
+#about h3 {
   color: #1c1c1c;
 }
-#about .box{
+#about .box {
   text-align: center;
 }
-#about .box img{
+#about .box img {
   width: 90px;
 }
 
 /*box for sell */
 
-#services{
+#services {
   margin: 100px 150px 120px 150px;
 }
-#services h3{
-  padding:10px 0 10px 0;
-  margin:0;
-  background: #D3D3D3;  
+#services h3 {
+  padding: 10px 0 10px 0;
+  margin: 0;
+  background: #d3d3d3;
 }
-#services li{
-  list-style:none;
+#services li {
+  list-style: none;
   padding: 10px;
 }
-.sell{
-  outline-color:black;
-  outline-style: solid; 
+.sell {
+  outline-color: black;
+  outline-style: solid;
   outline-width: 1px;
   box-sizing: border-box;
   flex-basis: 30%;
 }
+
 /*how it works*/
 
 #how-it-works {
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  
-  iframe {
-    max-width: 560px;
-    width: 100%;
-  }
 }
-
 
 /*buttons*/
 
-.btn1{
+.btn1 {
   background-color: #0ff2d6;
   margin: 10px;
   padding: 0 20px 0 20px;
@@ -169,61 +165,58 @@ header a:hover{
   border: 1px black solid;
   cursor: pointer;
 }
-.btn1:hover{
+.btn1:hover {
   color: #6d928d;
-   border: 1px #6d928d solid;
+  border: 1px #6d928d solid;
 }
 
 /* Services*/
 
-ul#services li{
+ul#services li {
   list-style: none;
-  padding:20px;
+  padding: 20px;
   border: #cccccc solid 1px;
-  margin-bottom:50px;
-  background:#e6e6e6;
+  margin-bottom: 50px;
+  background: #e6e6e6;
 }
-ul#services h3{
+ul#services h3 {
   background: white;
 }
 
 /* form*/
 
-#form input[type="email"]{
+#form input[type="email"] {
   padding: 4px;
-  height:30px;;
+  height: 30px;
   width: 300px;
 }
 
 /* footer */
 
-footer{
-  padding:20px;
-  margin-top:20px;
-  color:#ffffff;
-  background-color:#1c1c1c;
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #1c1c1c;
   text-align: center;
 }
 
-
 /*@media*/
 
-@media (min-width: 900px){
-   #services{
-   display: flex;
-   justify-content: space-between;
+@media (min-width: 900px) {
+  #services {
+    display: flex;
+    justify-content: space-between;
   }
-  header li{
-  float: left;
-  display: inline;
-  padding: 0px 20px 0 20px;
+  header li {
+    float: left;
+    display: inline;
+    padding: 0px 20px 0 20px;
   }
-  header img{
-
-    width:140px;
-    float:left;
-      margin-left: 10%;
+  header img {
+    width: 140px;
+    float: left;
+    margin-left: 10%;
     padding-top: 5px;
-  } 
+  }
 }
-
